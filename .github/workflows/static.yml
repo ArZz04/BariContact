@@ -28,7 +28,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './public'  # Se asegura de subir el contenido dentro de la carpeta 'public'
+          path: '.'  # Se asegura de subir el contenido dentro de la carpeta 'public'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

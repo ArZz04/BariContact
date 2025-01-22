@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const parques_whatsapp = document.getElementById("p-whatsapp");
     const parques_maps = document.getElementById("p-maps");
-    const parques_phone1 = document.getElementById("p-telefono1");
+    const parques_phone1 = document.getElementById("p-telefono");
 
     const valleimperial_whatsapp = document.getElementById("v-whatsapp");
     const valleimperial_maps = document.getElementById("v-maps");
@@ -60,10 +60,6 @@ document.addEventListener("DOMContentLoaded", function () {
     parques_phone1.addEventListener("click", function () {
         window.open("tel:" + phoneNumbers["Sucursal Parques"].phone1);
     });
-
-    parques_phone2.addEventListener("click", function () {
-        window.open("tel:" + phoneNumbers["Sucursal Parques"].phone2);
-    }); 
 
     valleimperial_whatsapp.addEventListener("click", function () {
         window.open(phoneNumbers["Sucursal Valle Imperial"].whatsapp);
